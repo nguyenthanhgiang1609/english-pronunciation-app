@@ -16,10 +16,7 @@ export function StudentListSelection({ lists }: StudentListSelectionProps) {
     <main className="min-h-screen p-6 max-w-4xl mx-auto">
       <header className="mb-8">
         <Button variant="ghost" asChild className="mb-4 -ml-2">
-          <Link href="/">
-            <ArrowLeft className="w-4 h-4 mr-2" />
-            Back to Home
-          </Link>
+          
         </Button>
         <div className="text-center">
           <div className="flex items-center justify-center gap-2 mb-3">
